@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Doppio+One&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+    min-width: 320px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.card-columns {
+    column-count: 3;
+    /* 3 columns on large screens */
+    column-gap: 20px;
+    /* Space between columns */
+}
+
+.card {
+
+    display: inline-block;
+    /* Allow cards to behave as block elements */
+    width: 100%;
+    /* Full width within the column */
+    margin-bottom: 20px;
+    /* Space between rows */
+    break-inside: avoid;
+    /* Prevent breaking inside the card */
+    border: 1px solid #dee2e6;
+    /* Card border */
+    border-radius: 8px;
+    /* Rounded corners */
+    background-color: #ffffff;
+    /* Card background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Shadow effect */
+
+}
+
+.card-body.one {
+
+
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 15px;
+    margin: -10px !important;
+    backdrop-filter: blur(8px);
+
+}
+
+
+.footer.one {
+    font-size: 12px;
+    display: block;
+}
+
+.card-title.one {
+    font-size: calc(12px + 0.2vw);
+    text-align: left;
+    color: white;
+
+
+}
+
+
+.card.one {
+    padding: 30px;
+    height: 150px;
+    border-radius: 15px;
+    background-image: url(https://i.pinimg.com/originals/9d/f4/89/9df48939ab918b460cd289d78be3fdde.jpg) !important;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+
+.bg-primary.one {
+    height: 85px;
+    width: 100%;
+}
+
+
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .card-columns {
+        column-count: 2;
+        /* 2 columns on medium screens */
+    }
+}
+
+@media (max-width: 576px) {
+    .card-columns {
+        column-count: 1;
+        /* 1 column on small screens */
+    }
+}
+
+
+.card.two {
+    height: 260px;
+    border-radius: 15px;
+    background-image: url(https://i.pinimg.com/564x/ca/d3/4d/cad34d5fe747818b21eb9ef0a5757d69.jpg);
+    background-size: cover;
+    background-position: 50% 75%;
+}
+
+
+.card-button.btn.btn-primary.two {
+    color: black;
+    font-weight: 500;
+    background-color: #EBECF0;
+    border: #dee2e6;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.6);
+    font-size: calc(12px + 0.2vw);
+
+
+}
+
+.card-title.two {
+    font-size: calc(18px + 0.2vw);
+    margin-top: 10px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.card-text.two {
+    font-size: calc(14px + 0.2vw);
+    color: black;
+    font-weight: 500;
+
+}
+
+.card-button.two-I {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 220px;
+    color: black;
+    font-size: calc(18px + 0.2vw);
+
+}
+
+.card-like-share.two {
+    text-align: right;
+    float: right;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 220px;
+
+}
+
+
+
+
+.card.three {
+    height: 280px;
+    border-radius: 15px;
+    background-image: url(https://i.pinimg.com/originals/df/20/ff/df20ff6ce80c983f8250340533b07945.jpg) !important;
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.card.body.three {
+    align-items: center;
+}
+
+.card-profile.three {
+
+    background-image: url(https://i.pinimg.com/736x/68/25/8e/68258ee4d38f36860cb2abea61624467.jpg) !important;
+    background-size: cover;
+    border-radius: 50% 50% 50% 50%;
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: auto;
+    border: 1px solid #FFDFC8;
+}
+
+
+.card-title.three {
+    text-align: center;
+    margin-top: 20px;
+    font-size: calc(18px + 0.2vw);
+    color: white;
+
+}
+
+.card-text.three {
+    text-align: center;
+    margin-top: 12px;
+    font-size: calc(14px + 0.2vw);
+    color: white;
+    font-weight: 500;
+}
+
+.card-buttons.three {
+
+    text-align: center;
+    align-items: center;
+    position: relative;
+    display: block;
+
+}
+
+button.three {
+    border-radius: 15px;
+    width: 40%;
+}
+
+
+
+.card.four {
+    height: 320px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+
+}
+
+.card-title.four {
+    color: black;
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: calc(18px + 0.2vw);
+    font-weight: 600;
+
+}
+
+.card-title-bg.four {
+
+    background-image: url(https://i.pinimg.com/564x/bd/2d/8d/bd2d8d673227adc555cd4a8289791bf6.jpg) !important;
+    background-position: -20% 75%;
+    border-radius: 15px 15px 0 0;
+}
+
+.card-text.four {
+
+    padding: 10px;
+    color: black;
+}
+
+.card-button.four-I {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 280px;
+    color: black;
+    font-size: calc(18px + 0.2vw);
+
+}
+
+.card-like-share.four {
+    text-align: right;
+    float: right;
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 280px;
+
+}
+
+.card-button.badge.badge-light.text-uppercase.four {
+    color: black;
+}
+
+.card-date.four {
+    margin-top: 5px;
+    text-align: left;
+    padding: 5px;
+    font-size: calc(10px + 0.2vw);
+    padding: 10px;
+    color: black;
+    opacity: 0.6;
+
+}
+
+hr.divider {
+    margin: 0em;
+    border-width: 2px;
+}
+
+.card.five {
+    height: 250px;
+    border-radius: 15px;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/32/68/ac/3268acf49abafdf99bc95e4fe7584a85.jpg);
+    background-size: cover;
+    background-position: 70% 10%;
+
+}
+
+.card-text.five {
+    font-size: calc(14px + 0.2vw);
+    padding: 20px;
+    border: 1px solid beige;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    border-radius: 15px;
+    color: white;
+    text-align: left;
+
+}
+
+.span-five {
+    display: block;
+}
+
+.p.five {
+    text-align: center;
+}
+
+.card-five-img.heart {
+
+    border: none;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 1%;
+
+}
+
+.card-five-img.share {
+
+    border: none;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+    top: 1%;
+
+}
+
+.heart-five {
+    width: 24px;
+    height: 24px;
+}
+
+.share-five {
+    width: 24px;
+    height: 24px;
+}
+
+.card.six {
+    height: 360px;
+    border-radius: 15px;
+}
+
+.button-shiny.chrome {
+    color: rgba(237, 255, 255, 1);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.95), 0 -1px 2px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(180deg,
+            rgba(125, 162, 207, 1) 7%,
+            rgba(183, 204, 225, 1) 35%,
+            rgba(220, 231, 247, 1) 42%,
+            rgba(94, 85, 78, 1) 40%,
+            rgba(200, 193, 177, 1) 93%);
+
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+    background-position: center center;
+    border-radius: 15px;
+    font-size: calc(10px + 0.2vw);
+}
+
+.button-shiny {
+    position: relative;
+    display: inline-block;
+    padding: 7px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8), 0 -1px 2px rgba(0, 0, 0, 0.2);
+    background: rgba(67, 67, 67, 1);
+    border: 1px solid rgba(0, 0, 0, .35);
+    border-radius: 15px;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.25),
+        0 1px 0 rgba(255, 255, 255, 0.25) inset,
+        0 0 0 rgba(0, 0, 0, 0.5) inset,
+        0 1.10em 0 rgba(255, 255, 255, 0.25) inset,
+        0 -1.10em 1.25em rgba(0, 0, 0, 0.32) inset,
+        0 1.10rem 1.25em rgba(255, 255, 255, 0.05) inset,
+        0 1.10em 6px rgba(255, 255, 255, .1) inset;
+
+    transition: all 150ms linear 0s;
+
+    text-transform: uppercase;
+    font-family: var(--fontPoppins);
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    font-size: calc(10px + 0.2vw);
+}
+
+.button-shiny:hover {
+    border-bottom: 4px solid rgba(0, 0, 0, .55);
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow:
+        0 5px 6px rgba(0, 0, 0, 0.16),
+        0 1px 0 rgba(255, 255, 255, 0.25) inset,
+        0 0 0 rgba(0, 0, 0, 0.25) inset,
+        0 20px 0 rgba(255, 255, 255, 0.04) inset,
+        0 -20px 20px rgba(0, 0, 0, 0.32) inset,
+        0 20px 20px rgba(255, 255, 255, 0.07) inset;
+}
+
+
+.card.six {
+    background-image: url(https://i.pinimg.com/564x/39/68/5e/39685ed4df2b0c0e45b05128c81183c7.jpg);
+    background-size: cover;
+    background-position: 100% 20%;
+}
+
+
+.card-title.six {
+    font-size: calc(22px + 0.1vw);
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-bg.six {
+    margin-top: 10px;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card-date.six {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 320px;
+    color: white;
+    font-size: calc(13px + 0.2vw);
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 5px;
+
+
+}
+
+.card.seven {
+    height: 240px;
+    border-radius: 15px;
+    vertical-align: middle;
+    text-align: center;
+    background-image: url(https://i.pinimg.com/564x/59/22/23/592223b2224bc18ccbf9fb1ebf03b930.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+
+}
+
+.card-text.seven {
+    font-size: calc(13px + 0.3vw);
+    padding: 20px;
+    border: 1px solid beige;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    width: 80%;
+    height: 70%;
+    border-radius: 15px;
+    color: white;
+    text-align: left;
+
+}
+
+.span-seven {
+    display: block;
+}
+
+.p.seven {
+    text-align: center;
+}
+
+.card-seven-img.heart {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent;
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    top: 1%;
+
+}
+
+.card-seven-img.share {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: transparent;
+
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+    top: 1%;
+
+}
+
+.heart-seven {
+    width: 24px;
+    height: 24px;
+}
+
+.share-seven {
+    width: 24px;
+    height: 24px;
+}
+
+.card.eight {
+    height: 380px;
+    border-radius: 15px;
+}
+
+.button-shiny.chrome {
+    color: rgba(237, 255, 255, 1);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.95), 0 -1px 2px rgba(0, 0, 0, 0.8);
+    background: linear-gradient(180deg,
+            rgba(125, 162, 207, 1) 7%,
+            rgba(183, 204, 225, 1) 35%,
+            rgba(220, 231, 247, 1) 42%,
+            rgba(94, 85, 78, 1) 40%,
+            rgba(200, 193, 177, 1) 93%);
+
+    background-repeat: no-repeat;
+    background-size: 110% 120%;
+    background-position: center center;
+    border-radius: 15px;
+    font-size: calc(10px + 0.2vw);
+}
+
+.button-shiny {
+    position: relative;
+    display: inline-block;
+    padding: 7px;
+    color: rgba(255, 255, 255, 1);
+    letter-spacing: 1px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8), 0 -1px 2px rgba(0, 0, 0, 0.2);
+    background: rgba(67, 67, 67, 1);
+    border: 1px solid rgba(0, 0, 0, .35);
+    border-radius: 15px;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.25),
+        0 1px 0 rgba(255, 255, 255, 0.25) inset,
+        0 0 0 rgba(0, 0, 0, 0.5) inset,
+        0 1.10em 0 rgba(255, 255, 255, 0.25) inset,
+        0 -1.10em 1.25em rgba(0, 0, 0, 0.32) inset,
+        0 1.10rem 1.25em rgba(255, 255, 255, 0.05) inset,
+        0 1.10em 6px rgba(255, 255, 255, .1) inset;
+
+    transition: all 150ms linear 0s;
+
+    text-transform: uppercase;
+    font-family: var(--fontPoppins);
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    font-size: calc(10px + 0.2vw);
+}
+
+.button-shiny:hover {
+    border-bottom: 4px solid rgba(0, 0, 0, .55);
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow:
+        0 5px 6px rgba(0, 0, 0, 0.16),
+        0 1px 0 rgba(255, 255, 255, 0.25) inset,
+        0 0 0 rgba(0, 0, 0, 0.25) inset,
+        0 20px 0 rgba(255, 255, 255, 0.04) inset,
+        0 -20px 20px rgba(0, 0, 0, 0.32) inset,
+        0 20px 20px rgba(255, 255, 255, 0.07) inset;
+}
+
+
+.card.eight {
+    background-image: url(https://i.pinimg.com/564x/06/13/78/061378c92d2581e9d50ed4adf0b77c50.jpg);
+    background-size: cover;
+    background-position: 80% 40%;
+
+}
+
+
+.card-title.eight {
+    font-size: calc(22px + 0.1vw);
+    color: white;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card-bg.eight {
+    margin-top: 10px;
+    width: 70%;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.card-date.eight {
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 340px;
+    color: white;
+    font-size: calc(13px + 0.2vw);
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    padding: 5px;
+
+
+}
+
+
+.card.nine {
+    height: 540px;
+    background-image: url(https://pbs.twimg.com/media/FT6qITRaUAIis79?format=jpg&name=large);
+    background-size: cover;
+    background-position: 90% 80%;
+    border-radius: 15px;
+}
+
+.card-title.nine {
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: calc(15px + 0.2vw);
+
+}
+
+
+.footer {
+
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    font-family: "Doppio One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.text-I {
+    color: black;
+    opacity: 0.7;
+}
+
+.text-creator {
+    color: black;
+}
+
+.github {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+
+.linkedin {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
