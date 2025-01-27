@@ -649,7 +649,7 @@ hr.divider {
 
 .card.nine {
     height: 540px;
-    background-image: url(https://pbs.twimg.com/media/FT6qITRaUAIis79?format=jpg&name=large);
+    background-image: url(images/sabor.webp);
     background-size: cover;
     background-position: 90% 80%;
     border-radius: 15px;
@@ -701,4 +701,8 @@ hr.divider {
     cursor: pointer;
     overflow: hidden;
     outline: none;
+}
+
+.footer a {
+    margin-right: 15px;
 }
