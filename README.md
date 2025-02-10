@@ -1,2 +1,2 @@
 # Blog
-testing some css properties 
+This project is a simple blog-like website I built using only vanilla CSS and HTML. My goal was to deepen my understanding and practice of CSS while showcasing my growing skills in website design. By focusing on pure HTML and CSS, I was able to experiment with layout techniques, typography, and responsiveness without relying on any frameworks. This project demonstrates my ability to create clean, functional, and visually appealing web pages from scratch. It's a great example of my commitment to mastering the fundamentals of web design.
